@@ -1,0 +1,64 @@
+# If else ( to find Wheather user is available for vote or not )
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int age;
+    cin>>age;
+    
+    if(age>=18) {
+        cout<< "Eligible for vote";
+    } else {
+        cout<<"Not Eligble For Vote";
+    }
+    return 0;
+}
+
+
+
+# code 2 
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int age;
+    cin >> age;
+
+    if (age < 0) {
+        cout << "Enter a valid Age number";
+    } 
+    else if (age >= 18) {
+        if (age >= 100) {
+            cout << "Eligible for vote (But we are Super senior citizen)";
+        } else {
+            cout << "Eligible for vote";
+        }
+    } 
+    else {
+        cout << "Not eligible for vote";
+    }
+
+
+
+
+# code 3  (Implement maximum number calculation)
+
+#include<iostream>
+using namespace std;
+
+int main() {
+    int a, b;
+    int max_Number;
+    
+    cin >> a>> b;
+    max_Number = (a>b) ? a : b ;
+    cout<< max_Number;
+    return 0;
+}
+
+
+    return 0;
+}
