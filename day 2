@@ -141,10 +141,46 @@ using namespace std;
         }else{
             cout << "Turn on the LED light with 10% brightness..";
         }
-    }else {
+    }else {                            
         cout << "Turn off the Lights...";
     }
     return 0;
 }
+
+
+//Problem 7 --Customer support IVR system
+//1 -- for support 
+//2 -- for billing 
+//3 -- Technical issues
+//4 -- Talk to the agent
+
+#include<iostream>
+using namespace std;
+  int main() {
+    int choice;
+    
+    switch(choice){
+        case 1:
+        cout <<"Transfering call to the customer support...";
+        break;
+        
+        case 2:
+        cout <<"Transfering call to billing and accounts...";
+        break;
+        
+        case 3:
+        cout <<"Connecting to Technical helpdesk...";
+        break;
+        
+        case 4:
+        cout <<"Connecting call to agent...";
+        break;
+        
+        default:
+        cout <<"Invalid selection, Enter a valid number...";
+    }
+    return 0;
+}
+
 
 
