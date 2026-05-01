@@ -1,4 +1,21 @@
-# If else ( to find Wheather user is available for vote or not )
+// Problem 1 -- If condition 
+// to verify user's age wether eligible for vote or not ?
+#include <iostream>
+using namespace std;
+
+int main() {
+    int age;
+    cin >> age;
+    // if condition 
+    if(age >= 18) {
+        // logic 
+        cout << "Eligible For vote";
+    }
+    return 0;
+}
+
+// Problem 2 -- If - else condition 
+// to verify user's age wether eligible for vote or not ?
 
 #include <iostream>
 using namespace std;
@@ -17,8 +34,8 @@ int main() {
 
 
 
-# code 2 
-
+// Problem 3 -- Nested If - else condition 
+// to verify user's age wether eligible for vote or not ?
 
 #include <iostream>
 using namespace std;
@@ -42,9 +59,8 @@ int main() {
     }
 
 
-
-
-# code 3  (Implement maximum number calculation)
+// Problem 4 -- Ternary Operator 
+// Find the Greater number among 2
 
 #include<iostream>
 using namespace std;
