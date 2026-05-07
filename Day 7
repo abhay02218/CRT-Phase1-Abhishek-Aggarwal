@@ -77,9 +77,78 @@ int main(){
     
 } 
 
+         -----------------------------------------------------------------------------
+
+// 2.2 -- parameterized Construstor
+
+#include <iostream>
+using namespace std;
+
+class Student {
+public:
+    string name;
+    int id;
+    
+      Student(string studentName, int studentID){
+        name = studentName;
+        id = studentID;
+        }
+        
+    
+    public:
+    void displayDetails(){
+        cout << name << " " << id;
+}
+};
+
+int main() {
+    Student std1("Abhay", 2218);
+    std1.displayDetails();
+}
+
 -----------------------------------------------------------------------------------------------
 
-Problem 3 -- 
+//Program -- 3
+//Pillar of OOPs
+// Encapsulation
+//Encapsulation means we are binding the data into a single unit(Functions, data, variables, mehods)
+  called class and making some restrictions on this class members.
+//Data Security
+//Controlled access over my data
+//
+//
+
+#include <iostream>
+using namespace std;
+
+class bankAccount{
+    private:
+    int balance;
+    
+    public:
+    void setbalance(int amount){
+        if(amount >= 0){
+            balance = amount;
+        }else{
+            cout << "Enter a valid Number...";
+        }
+    }
+    public:
+    int getbalance() {
+        return balance;
+    }
+};
+int main() {
+    bankAccount obj1;
+    obj1.setbalance(7000);
+    cout << obj1.getbalance();
+}
+
+
+//Problem 4 -- Abstraction
+
+
+
 
 
 
