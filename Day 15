@@ -1,4 +1,5 @@
-Reverse an Array 
+//Reverse an Array 
+
 #include <iostream>
 #include <stack>
 using namespace std;
@@ -27,8 +28,11 @@ int main()
     return 0;
 }
 
-Reverse a String 
-leetcode 344
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//Reverse a String 
+//leetcode 344
+
 class Solution {
 public:
     void reverseString(vector<char>& s) {
@@ -45,8 +49,11 @@ public:
     }
 };
 
-Valid paranthesis
-Leetcode 20
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//Valid paranthesis
+//Leetcode 20
+
 class Solution {
 public:
     bool isValid(string s) {
@@ -69,8 +76,11 @@ public:
     }
 };
 
-Next Greater Element 
-GFG
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//Next Greater Element 
+//GFG
+
 class Solution {
   public:
     vector<int> nextLargerElement(vector<int>& arr) {
